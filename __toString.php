@@ -1,4 +1,23 @@
 <?php
+
+// Create Your Class
+/*class MyClass{
+    public $name;
+
+    public function __construct($name)    {
+        $this->name = $name;
+    }
+
+    public function __toString() {
+        return axax;
+    }
+}
+
+$classObject = new MyClass('4');
+echo $classObject.'<br>';
+var_dump($classObject);
+die();*/
+
 class Machine {
 	public $name;
 	public $model;
@@ -13,26 +32,24 @@ class Machine {
 	}
 
 	public function __toString() {
-		return Mashine;
+		return 'Mashine';
 	}
 
 }
 class Cars extends Machine {
-	public function __toString() {
-		return Cars;
-	}
+	// виведе Mashine
 }
 
 class Bus extends Machine {
 	public function __toString() {
-		return Bus;
-	}	
+		return 'Bus'; 
+	}	// виведе Bus
 }
 
 class Moto extends Machine {
 	public function __toString() {
-		return Moto;
-	}
+		return 'Moto';
+	}	// виведе Moto
 }
 
 $product1 = new Cars('WV', 'B5', 12, 4);
